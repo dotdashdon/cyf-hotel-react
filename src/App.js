@@ -17,9 +17,7 @@ const App = () => {
       <Heading />
       <TouristInfoCards />
       <Bookings />
-      <table>
-        <SearchResults />
-      </table>
+      {/* <SearchResults /> */}
       <Footer locations={locations} />
     </div>
   );
